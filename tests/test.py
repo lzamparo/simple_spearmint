@@ -16,7 +16,7 @@ def test_maximize():
     max_ss = SimpleSpearmint({'x': {'type': 'float', 'min': -3, 'max': 3}}, minimize=False)
     
     # minimize f(x) = x^2
-    # Run for 100 hyperparameter optimization trials
+    # Run for 50 hyperparameter optimization trials
     for n in range(100):
         print("Running iteration ", n)
         # Get a suggestion from the optimizer
