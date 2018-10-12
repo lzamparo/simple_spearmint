@@ -17,7 +17,7 @@ def test_maximize():
     
     # minimize f(x) = x^2
     # Run for 50 hyperparameter optimization trials
-    for n in range(100):
+    for n in range(50):
         print("Running iteration ", n)
         # Get a suggestion from the optimizer
         min_suggestion = min_ss.suggest()
